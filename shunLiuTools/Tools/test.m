@@ -13,4 +13,8 @@
     NSLog(@"123");
 }
 
+- (void)testOne{
+    NSLog(@"---123---");
+}
+
 @end
