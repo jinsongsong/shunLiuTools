@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4B21889C28756DE700092A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B21889B28756DE700092A6D /* AppDelegate.m */; };
-		4B21889F28756DE700092A6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B21889E28756DE700092A6D /* SceneDelegate.m */; };
 		4B2188A228756DE700092A6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188A128756DE700092A6D /* ViewController.m */; };
-		4B2188A528756DE700092A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2188A328756DE700092A6D /* Main.storyboard */; };
 		4B2188AA28756DE900092A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2188A928756DE900092A6D /* Assets.xcassets */; };
 		4B2188AD28756DE900092A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2188AB28756DE900092A6D /* LaunchScreen.storyboard */; };
 		4B2188B028756DE900092A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188AF28756DE900092A6D /* main.m */; };
 		4B2188BA28756DE900092A6D /* shunLiuToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188B928756DE900092A6D /* shunLiuToolsTests.m */; };
 		4B2188C428756DE900092A6D /* shunLiuToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188C328756DE900092A6D /* shunLiuToolsUITests.m */; };
 		4B2188C628756DE900092A6D /* shunLiuToolsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188C528756DE900092A6D /* shunLiuToolsUITestsLaunchTests.m */; };
-		4B2188D528756F7500092A6D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2188D428756F7500092A6D /* test.m */; };
+		4BD78F9A289CF08100AC9EE0 /* UILabel+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78F99289CF08100AC9EE0 /* UILabel+NB.m */; };
+		4BD78F9D289CF57800AC9EE0 /* UITextField+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78F9B289CF57800AC9EE0 /* UITextField+NB.m */; };
+		4BD78FA0289CF5BC00AC9EE0 /* UIViewController+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78F9F289CF5BC00AC9EE0 /* UIViewController+NB.m */; };
+		4BD78FA3289CF6E100AC9EE0 /* UIButton+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78FA2289CF6E100AC9EE0 /* UIButton+NB.m */; };
+		4BD78FA6289CF75100AC9EE0 /* NBCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78FA4289CF75100AC9EE0 /* NBCollectionViewLayout.m */; };
+		4BD78FA9289CF94E00AC9EE0 /* NBUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD78FA8289CF94E00AC9EE0 /* NBUnicode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +44,8 @@
 		4B21889728756DE700092A6D /* shunLiuTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shunLiuTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B21889A28756DE700092A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B21889B28756DE700092A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B21889D28756DE700092A6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4B21889E28756DE700092A6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4B2188A028756DE700092A6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B2188A128756DE700092A6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4B2188A428756DE700092A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B2188A928756DE900092A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2188AC28756DE900092A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2188AE28756DE900092A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +55,18 @@
 		4B2188BF28756DE900092A6D /* shunLiuToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shunLiuToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2188C328756DE900092A6D /* shunLiuToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shunLiuToolsUITests.m; sourceTree = "<group>"; };
 		4B2188C528756DE900092A6D /* shunLiuToolsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shunLiuToolsUITestsLaunchTests.m; sourceTree = "<group>"; };
-		4B2188D328756F7500092A6D /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		4B2188D428756F7500092A6D /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		4BD78F98289CF08100AC9EE0 /* UILabel+NB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NB.h"; sourceTree = "<group>"; };
+		4BD78F99289CF08100AC9EE0 /* UILabel+NB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NB.m"; sourceTree = "<group>"; };
+		4BD78F9B289CF57800AC9EE0 /* UITextField+NB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NB.m"; sourceTree = "<group>"; };
+		4BD78F9C289CF57800AC9EE0 /* UITextField+NB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NB.h"; sourceTree = "<group>"; };
+		4BD78F9E289CF5BC00AC9EE0 /* UIViewController+NB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NB.h"; sourceTree = "<group>"; };
+		4BD78F9F289CF5BC00AC9EE0 /* UIViewController+NB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NB.m"; sourceTree = "<group>"; };
+		4BD78FA1289CF6E100AC9EE0 /* UIButton+NB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+NB.h"; sourceTree = "<group>"; };
+		4BD78FA2289CF6E100AC9EE0 /* UIButton+NB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NB.m"; sourceTree = "<group>"; };
+		4BD78FA4289CF75100AC9EE0 /* NBCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCollectionViewLayout.m; sourceTree = "<group>"; };
+		4BD78FA5289CF75100AC9EE0 /* NBCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCollectionViewLayout.h; sourceTree = "<group>"; };
+		4BD78FA7289CF94E00AC9EE0 /* NBUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUnicode.h; sourceTree = "<group>"; };
+		4BD78FA8289CF94E00AC9EE0 /* NBUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUnicode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +120,8 @@
 			children = (
 				4B21889A28756DE700092A6D /* AppDelegate.h */,
 				4B21889B28756DE700092A6D /* AppDelegate.m */,
-				4B21889D28756DE700092A6D /* SceneDelegate.h */,
-				4B21889E28756DE700092A6D /* SceneDelegate.m */,
 				4B2188A028756DE700092A6D /* ViewController.h */,
 				4B2188A128756DE700092A6D /* ViewController.m */,
-				4B2188A328756DE700092A6D /* Main.storyboard */,
 				4B2188A928756DE900092A6D /* Assets.xcassets */,
 				4B2188AB28756DE900092A6D /* LaunchScreen.storyboard */,
 				4B2188AE28756DE900092A6D /* Info.plist */,
@@ -143,8 +150,18 @@
 		4B2188D228756F4F00092A6D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				4B2188D328756F7500092A6D /* test.h */,
-				4B2188D428756F7500092A6D /* test.m */,
+				4BD78FA7289CF94E00AC9EE0 /* NBUnicode.h */,
+				4BD78FA8289CF94E00AC9EE0 /* NBUnicode.m */,
+				4BD78F98289CF08100AC9EE0 /* UILabel+NB.h */,
+				4BD78F99289CF08100AC9EE0 /* UILabel+NB.m */,
+				4BD78FA1289CF6E100AC9EE0 /* UIButton+NB.h */,
+				4BD78FA2289CF6E100AC9EE0 /* UIButton+NB.m */,
+				4BD78F9C289CF57800AC9EE0 /* UITextField+NB.h */,
+				4BD78F9B289CF57800AC9EE0 /* UITextField+NB.m */,
+				4BD78F9E289CF5BC00AC9EE0 /* UIViewController+NB.h */,
+				4BD78F9F289CF5BC00AC9EE0 /* UIViewController+NB.m */,
+				4BD78FA5289CF75100AC9EE0 /* NBCollectionViewLayout.h */,
+				4BD78FA4289CF75100AC9EE0 /* NBCollectionViewLayout.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -254,7 +271,6 @@
 			files = (
 				4B2188AD28756DE900092A6D /* LaunchScreen.storyboard in Resources */,
 				4B2188AA28756DE900092A6D /* Assets.xcassets in Resources */,
-				4B2188A528756DE700092A6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2188D528756F7500092A6D /* test.m in Sources */,
+				4BD78FA9289CF94E00AC9EE0 /* NBUnicode.m in Sources */,
+				4BD78FA6289CF75100AC9EE0 /* NBCollectionViewLayout.m in Sources */,
 				4B2188B028756DE900092A6D /* main.m in Sources */,
 				4B2188A228756DE700092A6D /* ViewController.m in Sources */,
+				4BD78FA0289CF5BC00AC9EE0 /* UIViewController+NB.m in Sources */,
 				4B21889C28756DE700092A6D /* AppDelegate.m in Sources */,
-				4B21889F28756DE700092A6D /* SceneDelegate.m in Sources */,
+				4BD78FA3289CF6E100AC9EE0 /* UIButton+NB.m in Sources */,
+				4BD78F9A289CF08100AC9EE0 /* UILabel+NB.m in Sources */,
+				4BD78F9D289CF57800AC9EE0 /* UITextField+NB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B2188A328756DE700092A6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B2188A428756DE700092A6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B2188AB28756DE900092A6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -462,9 +474,10 @@
 				INFOPLIST_FILE = shunLiuTools/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,9 +501,10 @@
 				INFOPLIST_FILE = shunLiuTools/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
