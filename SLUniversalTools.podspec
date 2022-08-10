@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "SLToolsCocoapods"
+  spec.name         = "SLUniversalTools"
   spec.version      = "1.1.0"
   spec.summary      = "Common function set"
   spec.description  = "Common function set；Add features and improve over time"
